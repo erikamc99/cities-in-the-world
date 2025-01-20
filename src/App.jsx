@@ -10,6 +10,7 @@ function App() {
         <div>
             <Header />
             <HeadCity />
+            <PopCities />
             <Restaurants />
             <Footer />
         </div>

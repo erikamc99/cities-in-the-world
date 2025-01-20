@@ -19,22 +19,22 @@ function PopCities() {
           <BangkokCard />
         </div>
         <div className="w-1/3">
-          <LondonCard/>
+          <LondonCard />
         </div>
         <div className="w-1/3">
-          <ParisCard/>
+          <ParisCard />
         </div>
       </div>
       
       <div className="flex mb-4">
         <div className="w-1/3">
-          <SingapurCard/>
+          <SingapurCard />
         </div>
         <div className="w-1/3">
-          <NewYorkCard/>
+          <NewYorkCard />
         </div>
         <div className="w-1/3">
-          <IstanbulCard/>
+          <IstanbulCard />
         </div>
       </div>
     </section>
