@@ -9,29 +9,29 @@ import IstanbulCard from "./cards/IstanbulCard.jsx";
 
 function PopCities() {
   return (
-    <section className="container mx-auto my-10 flex md:flex-row">
-      <aside className="w-full md:w-1/4 lg:w-1/5 px-4">
+    <section className="container mx-auto my-10 flex md:flex-row items-start">
+      <aside className="w-1/4 h-full">
         <SideRank />
       </aside>
     
-      <div className="grid grid-cols-3 ">
-        <div className="">
+      <div className="grid grid-cols-3 gap-6 px-4 w-full ">
+        <div className="w-full">
           <BangkokCard />
         </div>
-        <div className="">
+        <div className="w-full">
           <LondonCard />
         </div>
-        <div className="">
+        <div className="w-full">
           <ParisCard />
         </div>
 
-        <div className="">
+        <div className="w-full">
           <SingapurCard />
         </div>
-        <div className="">
+        <div className="w-full">
           <NewYorkCard />
         </div>
-        <div className="">
+        <div className="w-full">
           <IstanbulCard />
         </div>
       </div>

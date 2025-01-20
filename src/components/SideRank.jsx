@@ -1,6 +1,6 @@
 function SideRank() {
   return (
-    <section className="container mx-auto my-10 border p-3">
+    <section className="container mx-auto border p-3 h-full">
       <p className="text-xl text-center mb-6">Ranking - Most Visited</p>
       <div className="grid grid-cols-1  gap-6">
         <div className="relative">
