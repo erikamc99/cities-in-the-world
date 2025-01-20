@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.headCity img {
-  height: 30vh;
-}
-
-.heading-container {
-  height: 50vh;
-  top: -50px;
+.headCity {
+  height: 40vh;
 }
 
