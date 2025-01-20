@@ -631,6 +631,15 @@ video {
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-inline {
+  display: inline-flex;
+  flex-direction: row;
+}
+
 .grid {
   display: grid;
 }
