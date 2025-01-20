@@ -11,7 +11,7 @@ function SideRank() {
       return (
         <section className="container mx-auto my-10">
           <h2 className="text-2xl font-bold text-center mb-6">Top Cities</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="flex direction-columns gap-6">
             {cities.map((city, index) => (
               <CityCard key={index} name={city.name} image={city.image} />
             ))}
