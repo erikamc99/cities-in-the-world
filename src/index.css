@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 .headCity img {
-  height: 65vh;
+  height: 30vh;
 }
 
 .heading-container {
-  height: 65vh;
+  height: 50vh;
   top: -50px;
 }
+

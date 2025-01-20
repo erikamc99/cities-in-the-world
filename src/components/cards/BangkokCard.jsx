@@ -1,7 +1,7 @@
 function BangkokCard() {
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg border">
-  <img className="w-full h-48 object-cover" src="../img/bangkok-header.png" />
+  <img className="w-full h-48 object-cover" src="../src/assets/img/Bangkok-general.jpg" />
   
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2">Italy</div>

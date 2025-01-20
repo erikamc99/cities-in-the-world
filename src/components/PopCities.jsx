@@ -8,36 +8,36 @@ import NewYorkCard from "./cards/NewYorkCard.jsx";
 import IstanbulCard from "./cards/IstanbulCard.jsx";
 
 function PopCities() {
-    return (
+  return (
     <section className="container mx-auto mt-6">
-    <div>
-      <SideRank />
-    </div>
-
-    <div className="flex mb-4">
-    <div className="w-1/3">
-      <BangkokCard />
-    </div>
-    <div className="w-1/3">
-      <LondonCard/>
-    </div>
-    <div className="w-1/3">
-      <ParisCard/>
-    </div>
-  </div>
-  
-  <div className="flex mb-4">
-    <div className="w-1/3">
-      <SingapurCard/>
-    </div>
-    <div className="w-1/3">
-      <NewYorkCard/>
-    </div>
-    <div className="w-1/3">
-      <IstanbulCard/>
-    </div>
-  </div>
-</section>
-    );
+      <div>
+        <SideRank />
+      </div>
+    
+      <div className="flex mb-4">
+        <div className="w-1/3">
+          <BangkokCard />
+        </div>
+        <div className="w-1/3">
+          <LondonCard/>
+        </div>
+        <div className="w-1/3">
+          <ParisCard/>
+        </div>
+      </div>
+      
+      <div className="flex mb-4">
+        <div className="w-1/3">
+          <SingapurCard/>
+        </div>
+        <div className="w-1/3">
+          <NewYorkCard/>
+        </div>
+        <div className="w-1/3">
+          <IstanbulCard/>
+        </div>
+      </div>
+    </section>
+  );
 };
 export default PopCities;
