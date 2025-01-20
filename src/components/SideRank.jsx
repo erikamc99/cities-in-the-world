@@ -1,22 +1,55 @@
 function SideRank() {
-    const cities = [
-        { name: 'Bangkok', image: '../src/assets/img/Bangkok-general.png' },
-        { name: 'London', image: '../src/assets/img/london.jpeg' },
-        { name: 'Paris', image: '../src/assets/img/paris.avif' },
-        { name: 'Singapore', image: '../src/assets/img/singapore.avif' },
-        { name: 'New York', image: '../src/assets/img/new-york.jpeg' },
-        { name: 'Istanbul', image: '../src/assets/img/istanbul.webp' },
-      ];
-    
-      return (
-        <section className="container mx-auto my-10">
-          <h2 className="text-2xl font-bold text-center mb-6">Top Cities</h2>
-          <div className="flex direction-columns gap-6">
-            {cities.map((city, index) => (
-              <CityCard key={index} name={city.name} image={city.image} />
-            ))}
+  return (
+    <section className="container mx-auto my-10 border p-3">
+      <p className="text-xl text-center mb-6">Ranking - Most Visited</p>
+      <div className="grid grid-cols-1  gap-6">
+        <div className="relative">
+          <img src="../src/assets/img/Bangkok-general.jpg" alt="Bangkok" className="w-full h-40 object-cover"/>
+          <div className="side-text absolute text-black">
+            Bangkok
           </div>
-        </section>
-      );
-    }
+        </div>
+
+        <div className="relative">
+          <img src="../src/assets/img/london.jpeg" alt="London" className="w-full h-40 object-cover"/>
+          <div className="side-text absolute text-black">
+            London
+          </div>
+        </div>
+
+        <div className="relative">
+          <img src="../src/assets/img/paris.avif" alt="Paris" className="w-full h-40 object-cover" />
+          <div className="side-text absolute text-black">
+            Paris
+          </div>
+        </div>
+
+        <div className="relative">
+          <img src="../src/assets/img/singapore.avif" alt="Singapore" className="w-full h-40 object-cover"
+          />
+          <div className="side-text absolute text-black">
+            Singapore
+          </div>
+        </div>
+
+        <div className="relative">
+          <img src="../src/assets/img/new-york.jpeg" alt="New York" className="w-full h-40 object-cover"/>
+          <div className="side-text absolute text-black">
+            New York
+          </div>
+        </div>
+
+        <div className="relative">
+          <img src="../src/assets/img/istambul.webp" alt="Istanbul" className="w-full h-40 object-cover"/>
+          <div className="side-text absolute text-black">
+            Istanbul
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default SideRank;
+
+
