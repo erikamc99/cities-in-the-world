@@ -825,7 +825,10 @@ video {
   height: 65vh;
   top: -50px;
 }
-
+.footer-icon {
+  padding: 10px;
+  width: 20%;
+}
 .hover\:bg-gray-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
