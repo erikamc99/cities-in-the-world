@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.headCity img {
-  height: 65vh;
+.headCity {
+  height: 40vh;
 }
 
-.heading-container {
-  height: 65vh;
-  top: -50px;
+.footer-icon {
+  width: 30%;
+  height: auto;
 }
