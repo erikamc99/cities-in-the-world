@@ -3,7 +3,7 @@ function Footer() {
         <div className="w-full mx-5">
           <div className="flex flex-wrap text-left justify-between items-center">
             <div className="text-left">
-              <p className="p-3 text-black">@2021 Company, Inc</p>
+              <p className="p-3 text-black text-xl">@2021 Company, Inc</p>
             </div>
             <div className="flex">
               <img src="../src/assets/img/icon1.png" alt="" className="footer-icon mr-5"/>

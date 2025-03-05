@@ -15,25 +15,19 @@ function PopCities() {
       </aside>
     
       <div className="grid grid-cols-3 gap-6 px-4 w-full ">
-        <div className="w-full">
-          <BangkokCard />
-        </div>
-        <div className="w-full">
-          <LondonCard />
-        </div>
-        <div className="w-full">
-          <ParisCard />
-        </div>
 
-        <div className="w-full">
+          <BangkokCard />
+
+          <LondonCard />
+
+          <ParisCard />
+
           <SingapurCard />
-        </div>
-        <div className="w-full">
+
           <NewYorkCard />
-        </div>
-        <div className="w-full">
+
           <IstanbulCard />
-        </div>
+
       </div>
     </section>
   );

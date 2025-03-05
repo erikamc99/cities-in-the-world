@@ -7,6 +7,22 @@
 }
 
 .footer-icon {
-  width: 30%;
-  height: auto;
+  width: 20%;
+}
+
+.fill-available {
+  height: -webkit-fill-available;
+}
+
+.h-50 {
+  height: 15rem;
+}
+
+.text-3xl {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
